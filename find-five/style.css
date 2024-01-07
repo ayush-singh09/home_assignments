@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "gilroy";
+}
+
+#main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.num{
+    height: 40px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 20px;
+    overflow: hidden;
+}
+input{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+}
+
+.but{
+    outline: 0;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 100px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.res{
+    background-color: aquamarine;
+    padding: 5px 30px;
+}
